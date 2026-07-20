@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/navpreetsingh584/module_6_part3-transactions:latest
+          image: ghcr.io/navpreetsingh584/module6-part3-navpreet-transactions:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
